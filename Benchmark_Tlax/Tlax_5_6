@@ -1,0 +1,52 @@
+    #        ngroups         ntours         nspots
+                   5              4             17
+
+    #        spot_id                                       n_name         length              a              b
+                   7                        San_Jose_de_la_Laguna            150              0            600
+                   8                             Hacienda_Xochuca             90              0            600
+                   9                              Taller_Plateria             60              0            600
+                  10                         I_San_Agustin_Tlaxco             30              0            600
+                  11                        Tienda_de_Don_Mariano             30              0            600
+                  12                                     Cacaxtla             90              0            600
+                  18                           Mercado_Art_Tlaxco             60              0            600
+                  19                           Museo_de_la_Madera             60              0            600
+                  20                               Barca_de_la_Fe             60              0            600
+                  21                             Zocalo_Huamantla             90              0            600
+                  24                                   Ocotelulco             60              0            600
+                  25                                     Tizatlan             60              0            600
+                  26                                 Quiahuixtlan             60              0            600
+                  27                           Hacienda_Tepetzala             90              0            600
+                  29                               Hotel_Senorial              0              0            600
+                  30                                 Hotel_Jerocs              0              0            600
+                  32                              Hotel_del_Angel              0              0            600
+
+    #          tr_id                                      tr_name          nspot            seq
+                   4                                       Tour_4              2              7               8 
+                   5                                       Tour_5              4              9              10              11              12 
+                   8                                       Tour_8              5             18              11              19              20              21 
+                  10                                      Tour_10              4             24              25              26              27 
+
+    #          gr_id        gr_size          tr_id         origin
+                   0              8             10             30
+                   1              7              5             32
+                   2              8              8             29
+                   3              6              4             30
+                   4              1             10             32
+
+    #            o/d              7              8              9             10             11             12             18             19             20             21             24             25             26             27             29             30             32
+                   8             47
+                   9             41             18
+                  10             42             16              2
+                  11             43             17              1              4
+                  12             75             74             69             70             70
+                  18             43             16              2              1              1             74
+                  19             43             16              3              2              2             74              1
+                  20             52             26             34             34             34             63             33             33
+                  21             36             53             48             49             49             67             48             49             53
+                  24             56             54             48             50             49             36             49             50             42             43
+                  25             48             45             40             42             42             39             41             41             33             35             13
+                  26             54             52             47             48             48             35             48             48             40             41             10             11
+                  27             33             22             17             18             17             64             18             18             28             38             41             39             44
+                  29             48             45             41             42             42             32             42             42             34             35              9              5             12             34
+                  30             50             48             44             45             45             38             45             44             36             37             12              9             17             36              6
+                  32             42             38             29             30             30             42             31             31             30             30             18             17             21             23             13             16

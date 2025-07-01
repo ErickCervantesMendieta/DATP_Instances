@@ -1,0 +1,49 @@
+    #        ngroups         ntours         nspots
+                   5              5             15
+
+    #        spot_id                                       n_name         length              a              b
+                   1                             Hacienda_Tenexac             60              0            600
+                   9                              Taller_Plateria             60              0            600
+                  10                         I_San_Agustin_Tlaxco             30              0            600
+                  13                           San_Miguel_Milagro             70              0            600
+                  14                                  Val_Quirico             90              0            600
+                  15                             Basilica_Ocotlan             60              0            600
+                  16                              Centro_Tlaxcala             90              0            600
+                  17                                Centro_Tlaxco             30              0            600
+                  24                                   Ocotelulco             60              0            600
+                  25                                     Tizatlan             60              0            600
+                  26                                 Quiahuixtlan             60              0            600
+                  27                           Hacienda_Tepetzala             90              0            600
+                  28                               Hotel_Cancalli              0              0            600
+                  29                               Hotel_Senorial              0              0            600
+                  31                                 Hotel_Posada              0              0            600
+
+    #          tr_id                                      tr_name          nspot            seq
+                   0                                       Tour_0              1              1 
+                   6                                       Tour_6              3             13              14              15 
+                   7                                       Tour_7              3             13              16              17 
+                  10                                      Tour_10              4             24              25              26              27 
+                  11                                      Tour_11              3              9              10              27 
+
+    #          gr_id        gr_size          tr_id         origin
+                   0              7              7             28
+                   1              8             11             31
+                   2              8             10             28
+                   3              3              0             29
+                   4              4              6             31
+
+    #            o/d              1              9             10             13             14             15             16             17             24             25             26             27             28             29             31
+                   9             44
+                  10             43              2
+                  13             80             69             70
+                  14             80             68             70             22
+                  15             60             49             50             37             35
+                  16             57             47             48             34             35              6
+                  17             44              2              3             73             73             53             63
+                  24             59             48             50             36             37             11             20             49
+                  25             52             40             42             39             37             12             22             41             13
+                  26             58             47             48             36             36             14             23             48             10             11
+                  27             38             17             18             65             65             45             55             18             41             39             44
+                  28             54             44             46             34             35              6             14             46              6              8             13             38
+                  29             52             41             42             32             33             14             22             42              9              5             12             34              7
+                  31             58             48             49             34             35              5             14             49             10             12             13             41              5              9
